@@ -2,17 +2,16 @@
 
 ## Par Hamza Ahmouny 4IIR G3
 
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#enonce">Enoncé</a></li>
-    <li><a href="#conception">Conception & Architecture</a></li>
-    <li><a href="#codesource">Code Source</a></li>
-    <li><a href="#screen">Capture d’Ecran</a></li>
-    <li><a href="#conclusion">Conclusion</a></li>
-  </ol>
-</details>
+
+<ol>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#enonce">Enoncé</a></li>
+<li><a href="#conception">Conception & Architecture</a></li>
+<li><a href="#codesource">Code Source</a></li>
+<li><a href="#screen">Capture d’Ecran</a></li>
+<li><a href="#conclusion">Conclusion</a></li>
+</ol>
+
 
 
 ## Introduction
