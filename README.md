@@ -98,9 +98,8 @@ Voir le repository sur cette page pour le code source.
 
 ## Conclusion
 
-```
-En travaillant dans sur cette activité, nous avons eu l'opportunité d'apprendre à développer une application Web JEE basée sur Spring MVC de Gestion des patients
-```
+En travaillant dans sur cette activité, nous avons eu l'opportunité d'apprendre à développer une application Web JEE basée sur Spring MVC de Gestion des patients.
+
 
 ## Acknowledgments
 
