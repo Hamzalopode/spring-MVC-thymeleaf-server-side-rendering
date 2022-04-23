@@ -59,11 +59,11 @@
 <ol>
     <li><a href="https://www.youtube.com/watch?v=vU6kcFEYeV8">Inversion de contrôle et Injection des dépendances Master IIBDCC FC 2022</a></li>
     <ul>
-        <li><a href="https://www.youtube.com/watch?v=kvGL01TIvz8">Part 1 Rappel API JDBC</a></li>
-        <li><a href="https://www.youtube.com/watch?v=kvGL01TIvz8">Part 2 JPA, Hibernate</a></li>
-        <li><a href="https://www.youtube.com/watch?v=BftLthOpfm4">Part 3 JPA Hibernate</a></li>
-        <li><a href="https://www.youtube.com/watch?v=xr-kMrV4gEo">Part 4 Spring Data</a></li>
-        <li><a href="https://www.youtube.com/watch?v=X1ts0D4uPlo">Part 5 Mapping des associations et héritage</a></li>
+        <li><a href="https://www.youtube.com/watch?v=kvGL01TIvz8">Part 1 : Rappel API JDBC</a></li>
+        <li><a href="https://www.youtube.com/watch?v=kvGL01TIvz8">Part 2 : JPA, Hibernate</a></li>
+        <li><a href="https://www.youtube.com/watch?v=BftLthOpfm4">Part 3 : JPA Hibernate</a></li>
+        <li><a href="https://www.youtube.com/watch?v=xr-kMrV4gEo">Part 4 : Spring Data</a></li>
+        <li><a href="https://www.youtube.com/watch?v=X1ts0D4uPlo">Part 5 : Mapping des associations et héritage</a></li>
     </ul>
     <li><a href="https://www.youtube.com/watch?v=vl1sKA-6aYE">Concepts de base Technologie Web JEE Servlet JSP MVC Spring MVC</a></li>
     <ul>
