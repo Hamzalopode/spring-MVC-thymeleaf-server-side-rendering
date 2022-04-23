@@ -17,6 +17,7 @@
 
 ## Introduction
 
+<details>
 <p>L'économie et la technologie d'aujourd'hui ont intensifié la nécessité de disposer de solutions de gestion des informations plus rapides, plus efficaces et à plus grande échelle. La spécification J2EE répond à ces défis en offrant un modèle de programmation qui améliore la productivité de développement, qui standardise la plateforme d'hébergement des applications d'entreprise et qui garantit la portabilité des applications développées grâce à une vaste suite de tests.</p>
 
 <p>L'architecture J2EE prend en charge le développement à base de composants d'applications d'entreprise multiniveaux. Un système d'application J2EE comprend en général les niveaux suivants :</p>
@@ -29,7 +30,7 @@
 
 ### Niveau données d'entreprise
 <p>C'est à ce niveau que les données de l'entreprise sont stockées et conservées, en général dans une base de données relationnelle.</p>
-
+</details>
 
 
 ## Enonce
@@ -79,6 +80,8 @@ Voir le repository sur cette page pour le code source.
 
 ## Screen
 
+<details>
+
 ### liste des patients
 ![listepatient](https://user-images.githubusercontent.com/46407388/160884884-fd1449ea-1a65-407b-8309-91ba528a48b4.png)
 ### rechercher un patient
@@ -95,6 +98,8 @@ Voir le repository sur cette page pour le code source.
 ![listepatientADMIN](https://user-images.githubusercontent.com/46407388/164934237-95e7d4de-f303-41cd-8979-6d1147d17d30.png)
 ### liste des patients version USER
 ![listepatientUSER](https://user-images.githubusercontent.com/46407388/164934238-ae2428e0-389f-4b65-9132-1a0e7435d891.png)
+
+</details>
 
 ## Conclusion
 
