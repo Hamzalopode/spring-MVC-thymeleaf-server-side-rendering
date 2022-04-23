@@ -16,7 +16,7 @@
 
 
 ## Introduction
-```
+
 L'économie et la technologie d'aujourd'hui ont intensifié la nécessité de disposer de solutions de gestion des informations plus rapides, plus efficaces et à plus grande échelle. La spécification J2EE répond à ces défis en offrant un modèle de programmation qui améliore la productivité de développement, qui standardise la plateforme d'hébergement des applications d'entreprise et qui garantit la portabilité des applications développées grâce à une vaste suite de tests.
 
 L'architecture J2EE prend en charge le développement à base de composants d'applications d'entreprise multiniveaux. Un système d'application J2EE comprend en général les niveaux suivants :
@@ -29,7 +29,7 @@ Au niveau serveur, ou niveau intermédiaire, les beans enterprise et les service
 
 --Niveau données d'entreprise
 C'est à ce niveau que les données de l'entreprise sont stockées et conservées, en général dans une base de données relationnelle.
-```
+
 
 
 ## Enonce
