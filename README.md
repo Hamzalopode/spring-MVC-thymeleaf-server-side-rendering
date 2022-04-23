@@ -1,6 +1,6 @@
 # spring-MVC-thymeleaf-server-side-rendering
 
-## Par Hamza Ahmouny 4IIR G3
+### Par Hamza Ahmouny 4IIR G3
 
 ## Table des matières 
 <ol>
