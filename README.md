@@ -17,18 +17,18 @@
 
 ## Introduction
 
-L'économie et la technologie d'aujourd'hui ont intensifié la nécessité de disposer de solutions de gestion des informations plus rapides, plus efficaces et à plus grande échelle. La spécification J2EE répond à ces défis en offrant un modèle de programmation qui améliore la productivité de développement, qui standardise la plateforme d'hébergement des applications d'entreprise et qui garantit la portabilité des applications développées grâce à une vaste suite de tests.
+<p>L'économie et la technologie d'aujourd'hui ont intensifié la nécessité de disposer de solutions de gestion des informations plus rapides, plus efficaces et à plus grande échelle. La spécification J2EE répond à ces défis en offrant un modèle de programmation qui améliore la productivité de développement, qui standardise la plateforme d'hébergement des applications d'entreprise et qui garantit la portabilité des applications développées grâce à une vaste suite de tests.</p>
 
-L'architecture J2EE prend en charge le développement à base de composants d'applications d'entreprise multiniveaux. Un système d'application J2EE comprend en général les niveaux suivants :
+<p>L'architecture J2EE prend en charge le développement à base de composants d'applications d'entreprise multiniveaux. Un système d'application J2EE comprend en général les niveaux suivants :</p>
 
---Niveau client
-Au niveau client, les composants Web (servlets ou fichiers JavaServer Pages (JSP), par exemple) ou les applications Java autonomes offrent une interface dynamique vers le niveau intermédiaire.
+### Niveau client
+<p>Au niveau client, les composants Web (servlets ou fichiers JavaServer Pages (JSP), par exemple) ou les applications Java autonomes offrent une interface dynamique vers le niveau intermédiaire.</p>
 
---Niveau intermédiaire
-Au niveau serveur, ou niveau intermédiaire, les beans enterprise et les services Web encapsulent une logique applicative réutilisable et distribuable pour l'application. Ces composants de niveau serveur sont contenus dans un serveur d'applications J2EE qui offre une plateforme permettant à ces composants d'exécuter des actions et de stocker des données.
+### Niveau intermédiaire
+<p>Au niveau serveur, ou niveau intermédiaire, les beans enterprise et les services Web encapsulent une logique applicative réutilisable et distribuable pour l'application. Ces composants de niveau serveur sont contenus dans un serveur d'applications J2EE qui offre une plateforme permettant à ces composants d'exécuter des actions et de stocker des données.</p>
 
---Niveau données d'entreprise
-C'est à ce niveau que les données de l'entreprise sont stockées et conservées, en général dans une base de données relationnelle.
+### Niveau données d'entreprise
+<p>C'est à ce niveau que les données de l'entreprise sont stockées et conservées, en général dans une base de données relationnelle.</p>
 
 
 
