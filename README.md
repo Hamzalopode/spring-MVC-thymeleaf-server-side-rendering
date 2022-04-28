@@ -99,6 +99,8 @@ Voir le repository sur cette page pour le code source.
 ![listepatientADMIN](https://user-images.githubusercontent.com/46407388/164934237-95e7d4de-f303-41cd-8979-6d1147d17d30.png)
 ### liste des patients version USER
 ![listepatientUSER](https://user-images.githubusercontent.com/46407388/164934238-ae2428e0-389f-4b65-9132-1a0e7435d891.png)
+### Recherche multiple
+![recherchemultiple](https://user-images.githubusercontent.com/46407388/165650582-0df6a080-a839-47fc-bf40-9c618f338a3c.png)
 
 </details>
 
