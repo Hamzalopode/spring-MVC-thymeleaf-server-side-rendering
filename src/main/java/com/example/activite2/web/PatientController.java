@@ -26,13 +26,32 @@ public class PatientController {
     public String patients(Model model,
                            @RequestParam(name="page", defaultValue = "0") int page,
                            @RequestParam(name="size", defaultValue = "5") int size,
-                           @RequestParam(name="key", defaultValue = "") String key){
+                           @RequestParam(name="key", defaultValue = "") String key,
+                           @RequestParam(name="malade", defaultValue = "") String malade,
+                           @RequestParam(name="genre", defaultValue = "") String genre,
+                           @RequestParam(name="score", defaultValue = "1") int score){
 
-        Page<Patient> pagePatient=patientRepo.findByNomContains(key, PageRequest.of(page, size));
+
+
+        Page<Patient> pagePatient;
+        if (malade.equals("on") || malade.equals("off")) {
+            if (score > 1)
+                pagePatient = patientRepo.findByNomContainsAndMaladeAndGenreContainsAndScoreEquals(key, malade.equals("on")?true:false, genre, score, PageRequest.of(page,size));
+            else
+                pagePatient = patientRepo.findByNomContainsAndMaladeAndGenreContains(key, malade.equals("on")?true:false, genre, PageRequest.of(page,size));
+        }else{
+            if (score > 1)
+                pagePatient = patientRepo.findByNomContainsAndGenreContainsAndScoreEquals(key, genre, score, PageRequest.of(page,size));
+            else
+                pagePatient = patientRepo.findByNomContainsAndGenreContains(key, genre, PageRequest.of(page,size));
+        }
         model.addAttribute("patients", pagePatient.getContent());
         model.addAttribute("pages", new int[pagePatient.getTotalPages()]);
         model.addAttribute("currentPage", page);
         model.addAttribute("key", key);
+        model.addAttribute("malade", malade);
+        model.addAttribute("genre", genre);
+        model.addAttribute("score", score);
         return "patients";
     }
 

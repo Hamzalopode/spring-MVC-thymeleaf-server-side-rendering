@@ -15,6 +15,8 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 
 import java.util.Date;
 import java.util.List;
+import java.lang.Math;
+import java.util.Random;
 
 @SpringBootApplication
 public class Activite2Application implements CommandLineRunner {
@@ -32,11 +34,15 @@ public class Activite2Application implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        /*for (int i = 0; i<100; i++){
+        /*
+        Random ran = new Random();
+        int x;
+        for (int i = 0; i<100; i++) {
+            x = ran.nextInt(90) + 5;
             patientRepo.save(
-                    new Patient(null, "hamza_"+(i+1), new Date(),
-                            Math.random()>0.5?true:false, (int) (Math.random()*100)));
-
+                    new Patient(null, "hamza_" + (i + 1), new Date(),
+                            Math.random() > 0.5 ? true : false, x, Math.random() > 0.5 ? "HOMME" : "FEMME"));
+        }
 
         securityService.saveNewUser("user1", "ahmouny", "ahmouny");
         securityService.saveNewUser("hamza", "ahmouny", "ahmouny");

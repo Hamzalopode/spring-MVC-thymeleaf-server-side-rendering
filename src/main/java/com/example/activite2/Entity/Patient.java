@@ -7,6 +7,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
 import javax.validation.constraints.*;
+import java.util.ArrayList;
 import java.util.Date;
 
 @Entity
@@ -28,8 +29,10 @@ public class Patient {
 
     private boolean malade;
 
-    @DecimalMin("10")
+    @DecimalMin("4")
     @DecimalMax("100")
     private int score;
 
+    @NotEmpty
+    private String genre;
 }

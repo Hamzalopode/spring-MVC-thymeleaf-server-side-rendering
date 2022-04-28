@@ -17,18 +17,26 @@
                     <span th:errors="${patient.nom}" class="text-danger"></span>
                 </div>
                 <div class="mb-3">
-                    <label for="date" class="form-label">Date Naissance</label>
+                    <label for="date" class="form-label">Date de registration</label>
                     <input type="date" class="form-control" name="dateNaissance" id="date" th:value="${patient.dateNaissance}">
                     <span th:errors="${patient.dateNaissance}" class="text-danger"></span>
                 </div>
                 <div class="mb-3">
-                    <label for="score" class="form-label">score</label>
+                    <label for="score" class="form-label">Age</label>
                     <input type="text" class="form-control" name="score" id="score" th:value="${patient.score}">
                     <span th:errors="${patient.score}" class="text-danger"></span>
                 </div>
                 <div class="mb-3 form-check">
                     <input type="checkbox" class="form-check-input" name="malade" th:checked="${patient.malade}" id="exampleCheck1">
                     <label class="form-check-label" for="exampleCheck1">Malade</label>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="exampleSelect">Genre</label>
+                    <select name="genre" id="exampleSelect" class="form-select" required>
+                        <option value="" selected>Le genre?</option>
+                        <option value="HOMME">HOMME</option>
+                        <option value="FEMME">FEMME</option>
+                    </select>
                 </div>
                 <button type="submit" class="btn btn-success">Ajouter</button>
             </form>

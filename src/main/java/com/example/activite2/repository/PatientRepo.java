@@ -11,6 +11,9 @@ import java.util.Date;
 import java.util.List;
 
 public interface PatientRepo extends JpaRepository<Patient, Long> {
-    Page<Patient> findByNomContains(String key, Pageable pageable);
+    Page<Patient> findByNomContainsAndMaladeAndGenreContains(String key, boolean malade, String genre, Pageable pageable);
+    Page<Patient> findByNomContainsAndGenreContains(String key, String genre, Pageable pageable);
+    Page<Patient> findByNomContainsAndMaladeAndGenreContainsAndScoreEquals(String key, boolean malade, String genre, int score,Pageable pageable);
+    Page<Patient> findByNomContainsAndGenreContainsAndScoreEquals(String key, String genre, int score, Pageable pageable);
 
 }
